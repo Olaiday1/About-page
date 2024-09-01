@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    max-height: auto;
+    background-color: black;
+}
+.style {
+    background-color: #FFD49C;
+    width: Hug (372.95px)px;
+    height: Hug (px)px;
+    justify-content: center;
+    opacity: 0px;
+    border-radius: 40px;
+    padding: 50px;
+    max-height: 70vh;
+    max-width: 100vh;
+}
+.img-container {
+    width: 359px;
+    height: 359px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: center;
+    padding: 0 430px ;
+    padding-top: 30px;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+    .style {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .img-container {
+        background-color: black;
+    }
+}
